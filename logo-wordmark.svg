@@ -1,0 +1,45 @@
+<svg width="780" height="220" viewBox="0 0 780 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hexBlue" x1="34" y1="28" x2="201" y2="182" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F6BFF"/>
+      <stop offset="0.52" stop-color="#113D9D"/>
+      <stop offset="1" stop-color="#0B1558"/>
+    </linearGradient>
+    <linearGradient id="hexSilver" x1="55" y1="48" x2="181" y2="174" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset="0.48" stop-color="#C9D0DB"/>
+      <stop offset="1" stop-color="#8B94A6"/>
+    </linearGradient>
+    <linearGradient id="chainGlow" x1="72" y1="70" x2="201" y2="158" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4CE8FF"/>
+      <stop offset="0.5" stop-color="#1EC7FF"/>
+      <stop offset="1" stop-color="#0D8BFF"/>
+    </linearGradient>
+    <linearGradient id="textBlue" x1="515" y1="55" x2="689" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F6BFF"/>
+      <stop offset="1" stop-color="#31A8FF"/>
+    </linearGradient>
+    <linearGradient id="labsTeal" x1="466" y1="147" x2="632" y2="147" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D8F5"/>
+      <stop offset="1" stop-color="#2AD6C9"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.12 0 0 0 0 0.79 0 0 0 0 1 0 0 0 0.25 0"/>
+      <feBlend in="SourceGraphic" mode="normal"/>
+    </filter>
+  </defs>
+  <g filter="url(#softGlow)">
+    <path d="M135.5 18L222.5 68.5V169.5L135.5 220L48.5 169.5V68.5L135.5 18Z" fill="url(#hexBlue)"/>
+    <path d="M135.5 35L208 77V161L135.5 203L63 161V77L135.5 35Z" fill="#07103F" stroke="url(#hexSilver)" stroke-width="9"/>
+    <path d="M86 94C86 80.2 97.2 69 111 69H185C198.8 69 210 80.2 210 94V132C210 145.8 198.8 157 185 157H149V134H182C188.6 134 194 128.6 194 122V103C194 96.4 188.6 91 182 91H113C106.4 91 101 96.4 101 103V110C101 116.6 95.6 122 89 122C82.4 122 77 116.6 77 110V103L77.1 102C77.7 87.5 89.7 76 104.3 76" fill="url(#chainGlow)"/>
+    <path d="M186 144C186 157.8 174.8 169 161 169H87C73.2 169 62 157.8 62 144V106C62 92.2 73.2 81 87 81H123V104H90C83.4 104 78 109.4 78 116V135C78 141.6 83.4 147 90 147H159C165.6 147 171 141.6 171 135V128C171 121.4 176.4 116 183 116C189.6 116 195 121.4 195 128V135L194.9 136C194.3 150.5 182.3 162 167.7 162" fill="url(#chainGlow)"/>
+  </g>
+  <g>
+    <text x="282" y="111" fill="#09103F" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="-4">Chain</text>
+    <text x="514" y="111" fill="url(#textBlue)" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="-4">Sec</text>
+    <rect x="286" y="147" width="84" height="4" rx="2" fill="url(#labsTeal)" opacity="0.9"/>
+    <text x="407" y="168" fill="url(#labsTeal)" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="500" letter-spacing="22">Labs</text>
+    <rect x="694" y="147" width="84" height="4" rx="2" fill="url(#labsTeal)" opacity="0.9"/>
+  </g>
+</svg>
